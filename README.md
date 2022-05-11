@@ -7,6 +7,10 @@
 1. Folder Structure 
 1. Understand Component
 1. How to render
+1. Create 4 Components(Home, About, Header, Footer)
+1. import them in App.js
+1. Separate & reuse Component
+1. CSS (Style the Component)
 1. props
 1. Children
 1. Conditional render

@@ -1,0 +1,22 @@
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 45px;
+    width: 100vw;
+    padding: 5px 8px 0 14px;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 560px;
+}
+.search_input input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.search_input .material-icons{
+    color: gray;
+}

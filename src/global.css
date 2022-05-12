@@ -1,32 +1,11 @@
-/* Common */
+/* Common Design */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header */
-.header, .footer{
-    background-color: powderblue;
-}
-.navbar{
+body{
     display: flex;
-    justify-content: center;
-}
-a{
-    padding: 10px;
-}
-
-/* Page Body */
-.body{
-    height: 41vh;
-}
-/* Home */
-
-/* About */
-
-/* Footer */
-.cen{
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
 }

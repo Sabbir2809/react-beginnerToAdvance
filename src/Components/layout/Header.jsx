@@ -1,29 +1,15 @@
 import React from 'react'
+import './Header.css'
 
 function Header() {
   return (
-    <div className='header'>
-        <h2 style={{textAlign:'center'}}>Header Page</h2>
-            <div className='navbar'>
-                <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/Sabbir2809">
-                    <p>News Feed</p>
-                </a>
-                <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/Sabbir2809">
-                    <p>Problem Soution</p>
-                </a>
-                <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/Sabbir2809">
-                    <p>My Profile</p>
-                </a>
-                <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/Sabbir2809">
-                    <p>Inistitutional Information</p>{" "}
-                </a>
-                <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/Sabbir2809">
-                    <p>Course</p>
-                </a>
-                <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/Sabbir2809">
-                    <p>Job Search</p>
-                </a>
-            </div>
+    <div className="header">
+        <div className="header_right">
+          <a href="https://mail.google.com/">Gmail</a>
+          <a href="https://www.google.com.bd/imghp?hl=en&authuser=0&ogbl">Image</a>
+          <span className="material-icons header_apps"> apps </span>
+          <span className="material-icons"> account_circle </span>
+        </div>
     </div>
   )
 }

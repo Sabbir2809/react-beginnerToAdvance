@@ -1,4 +1,4 @@
-# React Learn Step by Step
+# Learn React Step by Step
 
 #### first-app
 1. Introduction to React
@@ -17,8 +17,9 @@
 1. Separate & Reuse Component
 1. CSS (External or Inline)
 
-#### fourth-app
-1. props
+#### Project: Google UI Clone
+1. Google UI Clone
+1. Destructuring of Props
 1. Children
 1. Conditional render
 1. state(useState)

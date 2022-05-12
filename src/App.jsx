@@ -1,21 +1,14 @@
 import Footer from './Components/layout/Footer'
 import Header from './Components/layout/Header'
-import About from './Components/pages/about/About'
-import Home from './Components/pages/home/Home'
+import Home from './Components/pages/Home/Home'
 import './global.css'
 
 function App() {
   return (
     <div>
         <Header />
-        <div className='body'>
-            <Home />
-        </div>
-        <div className='body'>
-            <About />
-        </div>
-        
-        <Footer />
+        <Home des={"Google offered in: বাংলা"} />
+        <Footer country={"Bangladesh"} about={"About"} advertising={"Advertising"} business={"Business"} works={"How Search Works"} />
     </div>
   )
 }

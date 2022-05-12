@@ -1,0 +1,17 @@
+.mainBody{
+    flex: 1;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.mainBody img{
+    object-fit: contain;
+    height: 95px;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 208px;
+    font: 16px Arial,sans-serif; 
+}

@@ -1,4 +1,4 @@
-# Learn React Step by Step
+# Learn React.js Step by Step
 
 1. Introduction to React
 1. App.js -> Remove all Code & Hello World

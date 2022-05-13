@@ -1,18 +1,18 @@
-.search_buttons{
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-.search_buttons button{
-    padding: 7px 14px;
-    color: #3c4043;
-    font-size: 15px;
+.button_container {
+    margin-top: 2vh;
+  }  
+  
+  button {
     background-color: #f8f9fa;
     border-radius: 4px;
     border: 1px solid #f8f9fa;
-    min-width: 54px;
+    height: 36px;
+    padding: 0 16px;
     margin: 12px 6px;
-    text-align: center;
+  }
+  
+  button:hover {
     cursor: pointer;
-    user-select: none;
-}
+    box-shadow: 0 0 2px 0 #5f6368;
+  }
+  

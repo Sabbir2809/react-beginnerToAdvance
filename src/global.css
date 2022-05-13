@@ -1,11 +1,59 @@
 /* Common Design */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
 }
 
-body{
-    display: flex;
+a {
+  margin: 5px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 630px) {
+  #footer_nav {
     flex-direction: column;
+  }
+  #footer_left {
+    justify-content: center;
+  }
+  #footer_right {
+    justify-content: center;
+  }
+  .my_input_container {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 522px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+  footer {
+    position: relative;
+  }
+}
+
+@media (max-height: 570px) and (max-width: 630px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    margin-bottom: 13px;
+  }
+
+  footer {
+    position: relative;
+  }
 }

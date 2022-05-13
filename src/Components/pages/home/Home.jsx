@@ -3,17 +3,14 @@ import Button from '../Button/Button'
 import Search from '../Search/Search'
 import './Home.css'
 
-function Home({des}) {
-  // console.log(props.des);
+function Home({description}) {
   return (
-    <div className="mainBody">
-
-      <img src="./Images/google_logo.png" alt="Google.com" />
+    <section>
+      <img src="./Images/google_logo.png" alt="" />
       <Search />
       <Button />
-      <p className='language'>{des}</p>
-      
-    </div>
+      <p>{description}</p>
+    </section>
   )
 }
 

@@ -3,14 +3,10 @@ import './Search.css'
 
 function Search() {
   return (
-    <div className="search">
-
-        <div className="search_input">
-          <span className="material-icons"> search </span>
-          <input type="search" name id />
-          <span className="material-icons"> mic </span>
-        </div>
-
+    <div className="input_container">
+      <span className='material-icons'> search </span>
+      <input type="search" name="" id="" />
+      <span className='material-icons'> mic </span>
     </div>
   )
 }

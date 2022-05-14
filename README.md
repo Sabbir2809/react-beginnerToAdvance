@@ -5,3 +5,9 @@
 1. Understand all Folder & File
 1. Clean up Project File
 1. Folder Structure 
+
+---
+
+![CHEESE!](./react_roadmap.png)
+
+---

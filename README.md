@@ -10,7 +10,7 @@
 - Step 4: Create Functional Components Like (Header, Footer, Home, Button, Search) and Building then Styling
 - Step 5: Separate & Reuse Component
 - Step 6: import them in App.js
-- Step 7: Destructuring of Props
+- Step 7: Destructuring of Props, Children as props
 - Step 8: Deploy Netlify [Live Link](https://googleui-clone.netlify.app/)
 - Step 8: Project Push Github
 

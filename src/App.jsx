@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
         <Header />
-        <Home description={"Google offered in: বাংলা"} />
-        <Footer about={"About"} privacy={"Privacy"} terms={"Terms"} settings={"Settings"} />
+        <Home description={"Google offered in: "} lang={" বাংলা"} />
+        <Footer />
     </div>
   )
 }

@@ -5,7 +5,7 @@ function Search() {
   return (
     <div className="input_container">
       <span className='material-icons'> search </span>
-      <input type="search" name="" id="" />
+      <input type="search" placeholder='Search' id="" />
       <span className='material-icons'> mic </span>
     </div>
   )

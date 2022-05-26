@@ -1,8 +1,8 @@
 
-function FooterLInkRight() {
+function FooterLInkRight({title, url}) {
     return(
         <>
-            <a href="#1">About</a>
+            <a href={url}>{title}</a>
         </>
     )
 }

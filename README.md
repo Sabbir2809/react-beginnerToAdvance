@@ -11,7 +11,7 @@
 - Step 5: Separate & Reuse Component
 - Step 6: import them in App.js
 - Step 7: Destructuring of Props, Children as props
-- Step 8: Deploy Netlify [Live Link](https://googleui-clone.netlify.app/)
-- Step 8: Project Push Github
+- step 8: Conditional render (user is logged in we will show Home page if not logged in will show login page)
+- step 9: state(useState)
 
 ---

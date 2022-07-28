@@ -2,12 +2,14 @@
 // 1. function
 // 2. it must return some html/jsx
 
-const Functional = () => {
-    return <div>
+import React from "react";
 
-        <h2>Hello, This is functional Component</h2>
-        <p>A JavaScript library for building user interfaces</p>
-        
+const Functional = () => {
+  return (
+    <div>
+      <h2>Hello, This is functional Component</h2>
+      <p>A JavaScript library for building user interfaces</p>
     </div>
-}
+  );
+};
 export default Functional;

@@ -1,7 +1,7 @@
 import ReactDom from "react-dom";
-// import Functional from "./Functional";
-import Class from "./Class"
+// import Class from "./Class";
+import Functional from "./Functional";
 
 let root = document.getElementById("root");
 
-ReactDom.render(<Class/>, root);
+ReactDom.render(<Functional />, root);

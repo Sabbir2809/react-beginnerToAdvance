@@ -1,5 +1,5 @@
-import React from 'react'
-import './Button.css'
+import React from "react";
+import "./Button.css";
 
 function Button() {
   return (
@@ -7,7 +7,7 @@ function Button() {
       <button>Google Search</button>
       <button>I'm Feeling Lucky</button>
     </div>
-  )
+  );
 }
 
-export default Button
+export default Button;

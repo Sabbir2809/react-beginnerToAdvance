@@ -1,5 +1,7 @@
 # Project: Google UI Clone
+
 ---
+
 ![CHEESE!](././public/Images/google_ui_clone.png)
 
 ---
